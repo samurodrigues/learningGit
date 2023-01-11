@@ -3,12 +3,23 @@ git status -> relatório de arquivos que foram incluídos no controle de versão
 git add "code.txt" -> preparar arquivo para ser adicionado no controle de versão.
 git add . -> Adiciona um ou mais arquivos no controle de versão
 git commit -m "message" -> realiza a publicação de uma versão do git (Commit)
+git reflog -> ver histórico das versões do código
+--------
+git reset --hard idcodigoversão -> navega entre os commits antigos e novos, selecionando algum deles
+OBS.: Não utilizar estes comandos de troca de versão, há não ser que realmente precise. Se estiver trabalhando com sua equipe consulte primeiro o seu superior.
+--------
+git branch -> demonstra quais branches estão disponíveis no momento
+git branch nomedabranch -> cria nova branch
+git checkout nomedabranchCriada
 
 Enviar commits para Github
 git remote add origin link do repositório -> endereça o lugar para enviar o commit
-git push --set-upstream origin master -> Seleciona qual branch será usada
+git push --set-upstream origin master -> Seleciona a branch master para enviá-la
 
 configuração de conta GIT
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+
+O que são branches? Local para armazenar o versionamento do seu código
+Staging -> termo utilizado para branch que realiza atualizações nos códigos não testados em produção
