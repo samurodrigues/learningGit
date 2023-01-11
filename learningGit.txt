@@ -10,16 +10,27 @@ OBS.: Não utilizar estes comandos de troca de versão, há não ser que realmen
 --------
 git branch -> demonstra quais branches estão disponíveis no momento
 git branch nomedabranch -> cria nova branch
-git checkout nomedabranchCriada
+git checkout nomedabranchCriada -> navega para a branch criada
 
 Enviar commits para Github
 git remote add origin link do repositório -> endereça o lugar para enviar o commit
-git push --set-upstream origin master -> Seleciona a branch master para enviá-la
+git push --set-upstream origin master -> Seleciona a branch para enviá-la
 
 configuração de conta GIT
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 
+Realizar merge
+Antes de fazer o merge, realize o "git pull" na branch principal -> git pull ->traz as atualizações atuais para sua máquina local
+git checkout branchquedesejarealizarMerge
+git merge branchA -> para realizar o merge na branch B
+git push da branch principal
+
+
+git checkout -b sistema-de-login branchX-> branch de funcionalidade (caso de trabalho em equipe)
 O que são branches? Local para armazenar o versionamento do seu código
 Staging -> termo utilizado para branch que realiza atualizações nos códigos não testados em produção
+o que é um merge? transformação da branch B para ser igual A
+
+PULL REQUEST
