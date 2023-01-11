@@ -33,8 +33,12 @@ O que são branches? Local para armazenar o versionamento do seu código
 Staging -> termo utilizado para branch que realiza atualizações nos códigos não testados em produção
 o que é um merge? transformação da branch B para ser igual A
 
+<<<<<<< HEAD
 PULL REQUEST
 
 touch .gitignore -> cria gitignore
 abra e escreva o diretório para não aparecer. ex: /segredos
 salve e faça tudo normalmente
+=======
+PULL REQUEST
+>>>>>>> 1417a3036db5a6748e2dc79697c4be44656b6326
