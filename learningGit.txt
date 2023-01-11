@@ -32,3 +32,5 @@ git checkout -b sistema-de-login branchX-> branch de funcionalidade (caso de tra
 O que são branches? Local para armazenar o versionamento do seu código
 Staging -> termo utilizado para branch que realiza atualizações nos códigos não testados em produção
 o que é um merge? transformação da branch B para ser igual A
+
+PULL REQUEST
