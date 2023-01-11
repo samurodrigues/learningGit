@@ -1,1 +1,14 @@
-test
+git init -> inicia repositório GIT
+git status -> relatório de arquivos que foram incluídos no controle de versão; arquivos não incluídos no controle de versão; se um arquivo foi atualizado;
+git add "code.txt" -> preparar arquivo para ser adicionado no controle de versão.
+git add . -> Adiciona um ou mais arquivos no controle de versão
+git commit -m "message" -> realiza a publicação de uma versão do git (Commit)
+
+Enviar commits para Github
+git remote add origin link do repositório -> endereça o lugar para enviar o commit
+git push --set-upstream origin master -> Seleciona qual branch será usada
+
+configuração de conta GIT
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
