@@ -34,3 +34,7 @@ Staging -> termo utilizado para branch que realiza atualizações nos códigos n
 o que é um merge? transformação da branch B para ser igual A
 
 PULL REQUEST
+
+touch .gitignore -> cria gitignore
+abra e escreva o diretório para não aparecer. ex: /segredos
+salve e faça tudo normalmente
